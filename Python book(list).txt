@@ -14,8 +14,8 @@ print("The number of books is :", number_of_books)
 '''
     accessing elemenets in an array by index
 '''
-print(cars[2]) # prints Book3
-print(cars[0]) # prints Book1
+print(Books[2]) # prints Book3
+print(Books[0]) # prints Book1
 
 '''
     index() 
@@ -27,7 +27,7 @@ print("The index of Book3is, ", Book3.index("Book3"))
     append()
     inserts a value to the array 
 '''
-cars.append("Book 4")
+Books.append("Book 4")
 print(Books)
 
 '''
