@@ -1,0 +1,38 @@
+'''
+    Python lists 
+    list items/elements are accessed by index number
+    array indexing starts at 0
+    the last element in an array/list is the len(arr) - 1
+'''
+
+Books = ['Book1', 'Book2', 'Book3'] #array
+
+number_of_books = len(Books)
+
+print("The number of books is :", number_of_books)
+
+'''
+    accessing elemenets in an array by index
+'''
+print(cars[2]) # prints Book3
+print(cars[0]) # prints Book1
+
+'''
+    index() 
+    it returns the index location of a variable 
+'''
+print("The index of Book3is, ", Book3.index("Book3"))
+
+'''
+    append()
+    inserts a value to the array 
+'''
+cars.append("Book 4")
+print(Books)
+
+'''
+    remove()
+    removes specified value
+'''
+Books.remove("Book4")
+Print(Books)
